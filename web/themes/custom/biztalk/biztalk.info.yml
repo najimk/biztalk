@@ -1,0 +1,24 @@
+name: BizTalk
+type: theme
+description: "Custom biztalk theme built on top of barrio"
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10
+base theme: bootstrap_barrio
+
+regions:
+  brand: Brand 
+  top: Top
+  hero: Hero
+  preface: Preface
+  content: Content
+  bottom_content: Bottom content
+  sidebar: Sidebar
+  footer_one: Footer One
+  footer_two: Footer Two
+  footer_three: Footer Three
+  copyright: Copyright
+
+
+libraries:
+  - biztalk/global-styling
+  - biztalk/bootstrap-cdn

@@ -1,0 +1,27 @@
+<header class="header-area overlay">
+
+	<nav class="navbar navbar-expand-md navbar-dark navbar-scroll">
+		<div class="container">
+			{% if page.brand %}
+				{{ page.brand }}
+			{% endif %}
+
+			<div class="nav-wrapper_right d-flex">
+				{% if page.top %}
+					{{ page.top }}
+				{% endif %}
+			</div>
+		</div>
+	</nav>
+</header>
+
+<section id="hero-wrapper">
+	{% if page.hero %}
+		{{ page.hero }}
+	{% endif %}
+
+</section>
+
+{% if page.content %}
+	{{ page.content }}
+{% endif %}
